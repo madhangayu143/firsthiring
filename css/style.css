@@ -22,8 +22,8 @@ body {
   margin: auto;
   padding: 14px 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .brand {
@@ -32,29 +32,55 @@ body {
   font-weight: 600;
 }
 
-.nav-links a {
-  margin-left: 22px;
-  color: #ccc;
+/* NAV BUTTONS */
+.nav-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
   text-decoration: none;
-  font-size: 15px;
-  transition: color 0.2s ease;
+  font-size: 14px;
+  color: #fff;
+  border: 2px solid transparent;
+  transition: all 0.25s ease;
 }
 
-/* NAV HOVER COLORS */
-.nav-home:hover {
-  color: #ffcc00;
+/* BASE */
+.home-btn {
+  background: #333;
 }
 
-.nav-employer:hover {
-  color: #1e90ff;
+.employer-btn {
+  background: #333;
 }
 
-.nav-seeker:hover {
-  color: #2ecc71;
+.seeker-btn {
+  background: #333;
 }
 
-.nav-contact:hover {
-  color: #ff9800;
+.contact-btn {
+  background: #333;
+}
+
+/* HOVER COLORS */
+.home-btn:hover {
+  background: #ffcc00;
+  color: #000;
+}
+
+.employer-btn:hover {
+  background: #1e90ff;
+}
+
+.seeker-btn:hover {
+  background: #2ecc71;
+}
+
+.contact-btn:hover {
+  background: #ff9800;
 }
 
 /* HERO */
@@ -112,13 +138,11 @@ body {
 .cta.employer:hover {
   background: #1e90ff;
   color: #fff;
-  border-color: #1e90ff;
 }
 
 .cta.seeker:hover {
   background: #2ecc71;
   color: #fff;
-  border-color: #2ecc71;
 }
 
 .icon {
