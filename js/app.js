@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!app) return;
 
   app.innerHTML = `
-    <!-- TOP NAVIGATION -->
-    <nav class="top-nav themed-nav">
+    <!-- TOP NAV (DARK) -->
+    <nav class="top-nav dark-nav">
       <div class="nav-inner">
         <div class="brand">FirstHiring</div>
 
@@ -25,12 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <div class="cta-row">
           <a href="employers.html" class="cta employer">
-            <span class="icon">🏢</span>
             For Employers
           </a>
 
           <a href="candidates.html" class="cta seeker">
-            <span class="icon">🎓</span>
             For Job Seekers
           </a>
         </div>
@@ -41,7 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </header>
 
-    <!-- CONTENT -->
     <section class="block">
       <h2>What We Do</h2>
       <div class="cards">
@@ -65,7 +62,6 @@ document.addEventListener("DOMContentLoaded", () => {
       <div id="jobs" class="jobs"></div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
       <p>© FirstHiring</p>
       <a href="contact.html">Contact</a> |
@@ -77,12 +73,10 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(res => res.json())
     .then(jobs => {
       const jobsDiv = document.getElementById("jobs");
-
       if (!jobs || jobs.length === 0) {
         jobsDiv.innerHTML = "<p>Openings will be updated shortly.</p>";
         return;
       }
-
       jobs.forEach(job => {
         jobsDiv.innerHTML += `
           <div class="job">
@@ -92,9 +86,5 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         `;
       });
-    })
-    .catch(() => {
-      document.getElementById("jobs").innerHTML =
-        "<p>Openings will be updated shortly.</p>";
     });
 });
