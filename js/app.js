@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   app.innerHTML = `
     <!-- TOP NAVIGATION -->
-    <nav class="top-nav gradient-nav">
+    <nav class="top-nav themed-nav">
       <div class="nav-inner">
         <div class="brand">FirstHiring</div>
 
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </nav>
 
     <!-- HERO -->
-    <header class="hero themed-hero">
+    <header class="hero unified-hero">
       <div class="hero-box">
         <h1>FirstHiring</h1>
         <p>Professional recruitment partner for permanent IT & Non-IT hiring</p>
