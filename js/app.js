@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </nav>
 
     <!-- HERO -->
-    <header class="hero">
+    <header class="hero light-hero">
       <div class="hero-box">
         <h1>FirstHiring</h1>
         <p>Recruitment consultancy for permanent IT & Non-IT hiring</p>
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </a>
         </div>
 
-        <p class="helper">
+        <p class="helper dark">
           Employers post requirements. Job seekers apply for openings.
         </p>
       </div>
