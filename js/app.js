@@ -51,6 +51,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <footer>
       <p>© FirstHiring</p>
+      <a href="index.html">Home</a> |
+      <a href="contact.html">Contact</a> |
       <a href="privacy.html">Privacy Policy</a>
     </footer>
   `;
