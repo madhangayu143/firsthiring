@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   app.innerHTML = `
     <!-- TOP NAVIGATION -->
-    <nav class="top-nav">
+    <nav class="top-nav gradient-nav">
       <div class="nav-inner">
         <div class="brand">FirstHiring</div>
 
