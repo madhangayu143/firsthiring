@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>Recruitment consultancy for permanent IT & Non-IT hiring</p>
 
         <div class="cta-row">
-          <a href="employers.html" class="cta primary">
+          <a href="employers.html" class="cta employer">
             <span class="icon">🏢</span>
             For Employers
           </a>
 
-          <a href="candidates.html" class="cta secondary">
+          <a href="candidates.html" class="cta seeker">
             <span class="icon">🎓</span>
             For Job Seekers
           </a>
