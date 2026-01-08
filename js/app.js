@@ -7,11 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
     <nav class="top-nav">
       <div class="nav-inner">
         <div class="brand">FirstHiring</div>
-        <div class="nav-links">
-          <a href="index.html" class="nav-home">Home</a>
-          <a href="employers.html" class="nav-employer">Employers</a>
-          <a href="candidates.html" class="nav-seeker">Job Seekers</a>
-          <a href="contact.html" class="nav-contact">Contact</a>
+
+        <div class="nav-buttons">
+          <a href="index.html" class="nav-btn home-btn">Home</a>
+          <a href="employers.html" class="nav-btn employer-btn">Employers</a>
+          <a href="candidates.html" class="nav-btn seeker-btn">Job Seekers</a>
+          <a href="contact.html" class="nav-btn contact-btn">Contact</a>
         </div>
       </div>
     </nav>
@@ -67,7 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
     <!-- FOOTER -->
     <footer>
       <p>© FirstHiring</p>
-      <a href="index.html">Home</a> |
       <a href="contact.html">Contact</a> |
       <a href="privacy.html">Privacy Policy</a>
     </footer>
