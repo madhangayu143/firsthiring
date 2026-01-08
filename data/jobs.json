@@ -1,12 +1,8 @@
 [
   {
-    "title": "Backend Developer",
+    "title": "Developer",
     "location": "Bangalore",
-    "experience": "3–6 Years"
-  },
-  {
-    "title": "HR Executive",
-    "location": "Chennai",
-    "experience": "1–3 Years"
+    "experience": 5,
+    "type": "Full time"
   }
 ]
