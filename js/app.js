@@ -3,6 +3,20 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!app) return;
 
   app.innerHTML = `
+    <!-- TOP NAVIGATION -->
+    <nav class="top-nav">
+      <div class="nav-inner">
+        <div class="brand">FirstHiring</div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-home">Home</a>
+          <a href="employers.html" class="nav-employer">Employers</a>
+          <a href="candidates.html" class="nav-seeker">Job Seekers</a>
+          <a href="contact.html" class="nav-contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
     <header class="hero">
       <div class="hero-box">
         <h1>FirstHiring</h1>
@@ -26,6 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     </header>
 
+    <!-- CONTENT -->
     <section class="block">
       <h2>What We Do</h2>
       <div class="cards">
@@ -49,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div id="jobs" class="jobs"></div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
       <p>© FirstHiring</p>
       <a href="index.html">Home</a> |
