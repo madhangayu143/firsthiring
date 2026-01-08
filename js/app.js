@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
     </nav>
 
     <!-- HERO -->
-    <header class="hero light-hero">
+    <header class="hero themed-hero">
       <div class="hero-box">
         <h1>FirstHiring</h1>
-        <p>Recruitment consultancy for permanent IT & Non-IT hiring</p>
+        <p>Professional recruitment partner for permanent IT & Non-IT hiring</p>
 
         <div class="cta-row">
           <a href="employers.html" class="cta employer">
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
 
         <p class="helper dark">
-          Employers post requirements. Job seekers apply for openings.
+          Employers share requirements. Candidates apply for verified openings.
         </p>
       </div>
     </header>
@@ -45,18 +45,18 @@ document.addEventListener("DOMContentLoaded", () => {
     <section class="block">
       <h2>What We Do</h2>
       <div class="cards">
-        <div class="card">Permanent hiring across IT and Non-IT roles</div>
-        <div class="card">Screened candidate profiles within 48 hours</div>
-        <div class="card">Replacement guarantee on all positions</div>
+        <div class="card">Permanent hiring across IT and Non-IT domains</div>
+        <div class="card">Screened profiles delivered within 48 hours</div>
+        <div class="card">Replacement guarantee on all successful hires</div>
       </div>
     </section>
 
-    <section class="block alt">
+    <section class="block soft">
       <h2>Why FirstHiring</h2>
       <ul class="points">
         <li>Pay only on successful joining</li>
-        <li>No upfront charges</li>
-        <li>Direct coordination with hiring managers</li>
+        <li>No upfront or hidden charges</li>
+        <li>Dedicated recruiter coordination</li>
       </ul>
     </section>
 
